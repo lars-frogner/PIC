@@ -1,6 +1,3 @@
-using PIC
-using Test
+using PIC: runtests
 
-@testset "PIC.jl" begin
-    # Write your tests here.
-end
+runtests()
